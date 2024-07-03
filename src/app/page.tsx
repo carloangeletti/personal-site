@@ -7,10 +7,10 @@ import GithubBtn from "@/components/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 
 export const siteConfig = {
-  name: "Md Taqui Imam",
-  description: "I am a Passionate Software Developer",
+  name: "Carlo Angeletti",
+  description: "team leader & senior web developer",
   ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
-  url: "https://mdTaquiImam.vercel.app",
+  url: "https://carloangeletti.it",
 }
 export default function Home() {
   return (
@@ -18,10 +18,10 @@ export default function Home() {
       {/* LEFT SIDE  */}
       <div className=" h-full w-auto flex flex-col justify-start gap-4">
         <HeroTexts />
-        <div className="h-fit w-full p-4 flex gap-3">
+        <div className="h-fit w-full flex gap-3">
           <SocialLinks />
         </div>
-       <DownLoadResumeBtn/>
+       {/*<DownLoadResumeBtn/>*/}
       </div>
       {/* RIGHT SIDE image  */}
       <div className="h-full w-[47%] relative block max-lg:hidden">
