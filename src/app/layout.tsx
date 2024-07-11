@@ -16,7 +16,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://carloangeletti.it"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -24,47 +24,18 @@ export const metadata: Metadata = {
   description: siteConfig.description,
 
   // added new keywords for seo
-  keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
-    "portfolio",
-    "web developer",
-    "web",
-    "web dev",
-    "developer",
-    "PROGRAMMER ",
-    "programmer ",
-    "MD TAQUI IMAM ",
-    "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
-  ],
+  keywords: [],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "Carlo Angeletti",
+      url: "https://github.com/carloangeletti",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Carlo Angeletti",
 
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "it_IT",
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
@@ -76,7 +47,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
+    creator: "@carloangeletti",
   },
   icons: {
     icon: "/favicon.ico",
@@ -89,11 +60,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="it">
       <body className={`${poppins.variable} ${rubik.variable}`}>
         <main
           className={cn(
-            "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
+            "flex relative screen break-words min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:32px_32px]",
             { "bg-white": "#E6E7EB" }
           )}
         >
